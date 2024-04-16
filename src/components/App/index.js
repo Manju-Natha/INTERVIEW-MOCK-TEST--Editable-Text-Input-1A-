@@ -11,6 +11,7 @@ class AppItem extends Component {
 
   start = () => {
     this.setState(prevState => ({isClicked: !prevState.isClicked}))
+    
   }
 
   render() {
